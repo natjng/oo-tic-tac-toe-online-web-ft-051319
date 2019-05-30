@@ -99,7 +99,7 @@ class TicTacToe
 
     binding.pry
     turn until over?
-    if won? != false 
+    if winner != nil 
       puts "Congratulations #{winner}"
     elsif draw?
       puts "Cat's Game!"
