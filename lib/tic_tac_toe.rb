@@ -97,7 +97,7 @@ class TicTacToe
     # move(board, token = "X")
     # valid_move?
 
-binding.pry
+    binding.pry
     turn until over?
     if won? != false 
       puts "Congratulations #{winner}"
