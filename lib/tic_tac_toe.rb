@@ -101,7 +101,7 @@ class TicTacToe
     turn until over?
     if winner != nil 
       puts "Congratulations #{winner}"
-    elsif draw?
+    else
       puts "Cat's Game!"
     end
     
