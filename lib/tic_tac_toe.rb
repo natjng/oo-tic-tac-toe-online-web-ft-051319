@@ -92,20 +92,11 @@ class TicTacToe
   end
   
   def play
-    # display_board
-    # input_to_index(position)
-    # move(board, token = "X")
-    # valid_move?
-
-    #binding.pry
     turn until over?
     if winner
       puts "Congratulations #{winner}!"
     else
       puts "Cat's Game!"
     end
-    
-    #won?, draw?, over?
-    #@board.turn until @board.over?
   end
 end
